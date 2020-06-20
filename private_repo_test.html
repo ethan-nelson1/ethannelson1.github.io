@@ -345,7 +345,7 @@ var new_country = g.selectAll("path")
     });
 }
     function updateChinaData() {
-	d3.csv("data/china-data.csv",function(d, i, columns) {
+	d3.csv("https://raw.githubusercontent.com/EthanNelsonDBJ/visualizations/master/china-data.csv?token=APXZM3GMK5EBY52HC5SFC6C65VRMW",function(d, i, columns) {
 
     d.Date = parseTime(d.Date);
     for (var i = 1, n = columns.length, c; i < n; ++i) d[c = columns[i]] = +d[c];
