@@ -264,7 +264,7 @@ var country = g.selectAll(".africa-line")
 });
 
 function updateUSData() {
-	d3.csv("data/us-data.csv",function(d, i, columns) {
+	d3.csv("https://raw.githubusercontent.com/EthanNelsonDBJ/visualizations/master/us-data.csv?token=APXZM3AY7ZD5A6LWGSNFURC65VRP2",function(d, i, columns) {
 
     d.Date = parseTime(d.Date);
     for (var i = 1, n = columns.length, c; i < n; ++i) d[c = columns[i]] = +d[c];
