@@ -61,7 +61,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	info.update = function (props) {
 		this._div.innerHTML = '<h4>Number of PPP loans received</h4>' +  (props ?
 			'<b>' + props.name + '</b><br />' + props.loan_count + ' loans <br><b>Most popular category: </b><br>' + props.most_popular + '<br><b>Median household income (2018): </b>' + '<br>' + formatter.format(props.household_income)
-			: 'Hover over a zip');
+			: 'Click on a ZIP');
 	};
 
 	info.addTo(map);
