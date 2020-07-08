@@ -1,0 +1,408 @@
+id	loan_count	household_income	most_popular
+80264	11	0	Offices of Lawyers
+80477	9	0	Other Individual and Family Services 
+80544	8	0	Veterinary Services 
+80290	6	0	Lessors of Nonresidential Buildings (except Miniwarehouses) 
+80939	5	0	Roofing Contractors 
+80488	4	0	(blank)
+81612	3	0	Offices of Real Estate Agents and Brokers
+81656	3	0	Full-Service Restaurants 
+80293	2	0	Other Services Related to Advertising 
+80468	2	0	Highway, Street, and Bridge Construction 
+80423	1	0	Paint and Coating Manufacturing
+80511	1	0	Hotels (except Casino Hotels) and Motels 
+80929	1	0	General Freight Trucking, Local 
+81210	1	0	All Other Amusement and Recreation Industries 
+81131	1	24071	Religious Organizations 
+80652	3	25531	Dairy Cattle and Milk Production
+81334	4	27391	Other Heavy and Civil Engineering Construction 
+81120	4	27989	Supermarkets and Other Grocery (except Convenience) Stores 
+81044	1	29375	Farm Machinery and Equipment Manufacturing 
+81143	2	30417	Other Accounting Services 
+81123	2	30588	Support Activities for Forestry
+81054	2	30708	Water Supply and Irrigation Systems 
+81003	49	31303	Offices of Physicians (except Mental Health Specialists) 
+81050	14	32081	Electric Power Distribution 
+81041	1	33125	Cattle Feedlots 
+81089	2	33418	Highway, Street, and Bridge Construction 
+81067	5	34518	Nursing Care Facilities (Skilled Nursing Facilities) 
+81004	17	34792	Home Health Care Services
+81132	2	34800	Nursing Care Facilities (Skilled Nursing Facilities) 
+81073	1	35000	HMO Medical Centers 
+81063	3	36250	Hog and Pig Farming 
+81001	27	36534	Nursing Care Facilities (Skilled Nursing Facilities) 
+81501	96	36677	Offices of Physicians (except Mental Health Specialists) 
+81101	28	38245	Electrical Contractors and Other Wiring Installation Contractors
+81036	3	38287	General Medical and Surgical Hospitals 
+81520	7	38343	Beer and Ale Merchant Wholesalers 
+80910	24	38772	Offices of Physicians (except Mental Health Specialists) 
+81144	14	39127	Postharvest Crop Activities (except Cotton Ginning) 
+81052	14	39609	General Medical and Surgical Hospitals 
+81082	12	41028	New Car Dealers 
+80010	29	41076	Full-Service Restaurants 
+80903	137	41195	Full-Service Restaurants 
+81320	1	41382	Administration of Public Health Programs 
+81039	2	41452	Other Community Housing Services 
+80204	193	41473	Full-Service Restaurants 
+81125	8	41895	Packing and Crating 
+81422	1	42000	Solid Waste Collection 
+81419	3	42043	All Other Miscellaneous Food Manufacturing 
+81416	15	42176	New Car Dealers 
+81324	2	42361	Residential Remodelers 
+80905	54	42659	New Car Dealers 
+81226	1	42684	Poured Concrete Foundation and Structure Contractors 
+81252	2	43059	Hardware Stores 
+81090	1	43125	Nursing Care Facilities (Skilled Nursing Facilities) 
+80631	100	43243	Support Activities for Oil and Gas Operations 
+81401	70	43396	Commercial and Institutional Building Construction 
+80909	95	43532	Full-Service Restaurants 
+81425	2	43819	Other Vegetable (except Potato) and Melon Farming 
+81321	29	43859	Home Health Care Services
+81140	3	44130	Bed-and-Breakfast Inns 
+80455	1	44226	Other Grantmaking and Giving Services 
+80813	4	44277	Casino Hotels
+80214	76	44314	Full-Service Restaurants 
+80133	7	44712	Religious Organizations 
+81019	2	44757	Solid Waste Collection 
+81047	1	44875	All Other Basic Organic Chemical Manufacturing 
+81433	1	45000	Support Activities for Forestry
+80521	21	45281	Full-Service Restaurants 
+80219	32	45693	Packaging Machinery Manufacturing 
+80247	5	45785	Other Technical and Trade Schools 
+80731	1	46061	General Medical and Surgical Hospitals 
+80835	2	46167	Drilling Oil and Gas Wells
+81428	3	46250	HMO Medical Centers 
+81641	2	46250	Support Activities for Oil and Gas Operations 
+80436	1	46607	Engineering Services
+81242	2	46750	Recreational Vehicle Dealers 
+80461	9	46765	Wood Kitchen Cabinet and Countertop Manufacturing
+80260	21	46846	Full-Service Restaurants 
+81212	28	46946	Highway, Street, and Bridge Construction 
+80916	35	47475	Plumbing, Heating, and Air-Conditioning Contractors 
+80720	2	47475	Supermarkets and Other Grocery (except Convenience) Stores 
+80751	28	47477	Cattle Feedlots 
+81005	22	47623	Freestanding Ambulatory Surgical and Emergency Centers 
+80045	9	47898	Research and Development in Biotechnology (except Nanobiotechnology)
+80011	147	48086	All Other Specialty Trade Contractors
+81413	3	48119	Commercial and Institutional Building Construction 
+80828	6	48125	Assisted Living Facilities for the Elderly 
+80759	10	48256	Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance 
+80801	1	48750	Grain and Field Bean Merchant Wholesalers 
+80750	1	48906	All Other Specialty Trade Contractors
+80741	1	49125	Other Commercial and Service Industry Machinery Manufacturing 
+80907	157	49270	Plumbing, Heating, and Air-Conditioning Contractors 
+80904	39	49607	Full-Service Restaurants 
+80442	1	49861	New Housing For-Sale Builders 
+80723	5	49896	Other Miscellaneous Nondurable Goods Merchant Wholesalers 
+80302	201	50044	Full-Service Restaurants 
+81147	15	50239	Full-Service Restaurants 
+81154	1	50250	Supermarkets and Other Grocery (except Convenience) Stores 
+80836	3	50313	Cattle Feedlots 
+80758	8	50361	Support Activities for Oil and Gas Operations 
+80821	1	50500	General Medical and Surgical Hospitals 
+81424	1	50676	Electric Power Distribution 
+81146	2	50938	Potato Farming 
+81410	2	51146	Dairy Cattle and Milk Production
+80427	1	51250	Roasted Nuts and Peanut Butter Manufacturing 
+80737	1	51250	General Medical and Surgical Hospitals 
+80030	23	51400	Plumbing, Heating, and Air-Conditioning Contractors 
+80223	189	51431	Commercial and Institutional Building Construction 
+80864	1	51676	Site Preparation Contractors
+80743	1	51750	General Freight Trucking, Long-Distance, Truckload 
+81008	34	51948	New Car Dealers 
+80203	159	52147	Offices of Lawyers
+80734	10	52257	Supermarkets and Other Grocery (except Convenience) Stores 
+80815	2	52500	Soil Preparation, Planting, and Cultivating 
+80246	88	52516	Offices of Lawyers
+80701	25	52655	Dairy Cattle and Milk Production
+81230	16	52707	Offices of Physicians (except Mental Health Specialists) 
+80012	56	53236	Offices of Physicians (except Mental Health Specialists) 
+81137	9	53250	Motion Picture and Video Production 
+80807	16	53542	Cattle Feedlots 
+81625	18	53575	Hardware Stores 
+81006	17	53628	Electrical Contractors and Other Wiring Installation Contractors
+81506	36	53707	Offices of Physicians (except Mental Health Specialists) 
+81211	7	53731	Full-Service Restaurants 
+80459	4	53971	Supermarkets and Other Grocery (except Convenience) Stores 
+80810	6	54022	Support Activities for Oil and Gas Operations 
+80816	1	54039	Recreational and Vacation Camps (except Campgrounds) 
+81504	23	54447	Support Activities for Oil and Gas Operations 
+80620	19	54701	Specialized Freight (except Used Goods) Trucking, Long-Distance 
+80033	133	54785	Offices of Physicians (except Mental Health Specialists) 
+81328	4	54798	Support Activities for Nonmetallic Minerals (except Fuels) Mining 
+81201	10	55057	Full-Service Restaurants 
+80654	9	55065	Dairy Cattle and Milk Production
+81077	1	55156	Highway, Street, and Bridge Construction 
+81503	7	55365	Administration of General Economic Programs 
+80623	1	55455	General Freight Trucking, Long-Distance, Truckload 
+80917	20	55528	Full-Service Restaurants 
+80231	92	55645	Drinking Places (Alcoholic Beverages) 
+80501	149	56480	Full-Service Restaurants 
+80014	121	56578	Home Health Care Services
+80653	2	56779	Dairy Cattle and Milk Production
+80110	250	56789	Plumbing, Heating, and Air-Conditioning Contractors 
+80610	10	57325	(blank)
+80216	253	57348	Plumbing, Heating, and Air-Conditioning Contractors 
+80229	108	57674	Plumbing, Heating, and Air-Conditioning Contractors 
+80221	102	57826	Electrical Contractors and Other Wiring Installation Contractors
+80239	125	58047	Hotels (except Casino Hotels) and Motels 
+80524	212	58580	Full-Service Restaurants 
+80452	8	58639	Full-Service Restaurants 
+80809	1	58813	Amusement and Theme Parks 
+81521	7	58844	Crude Petroleum Extraction¬†
+81423	2	58864	Site Preparation Contractors
+80812	1	58929	Dairy Cattle and Milk Production
+80002	120	59099	Plumbing, Heating, and Air-Conditioning Contractors 
+80650	4	59143	Residential Remodelers 
+81526	9	59256	Other Noncitrus Fruit Farming 
+80915	82	59461	Plumbing, Heating, and Air-Conditioning Contractors 
+81236	2	59484	Hotels (except Casino Hotels) and Motels 
+80131	1	59737	New Single-Family Housing Construction (except For-Sale Builders) 
+81505	95	59914	Plumbing, Heating, and Air-Conditioning Contractors 
+80808	4	59934	Water Supply and Irrigation Systems 
+80236	4	59938	Wine and Distilled Alcoholic Beverage Merchant Wholesalers 
+81624	2	60208	Hotels (except Casino Hotels) and Motels 
+81403	5	60411	Veterinary Services 
+81654	1	60833	Site Preparation Contractors
+80222	128	60896	Offices of Lawyers
+80226	52	61014	Full-Service Restaurants 
+80512	5	61053	Other Heavy and Civil Engineering Construction 
+80303	70	61156	Offices of Physicians (except Mental Health Specialists) 
+80545	1	61250	Educational Support Services
+81615	16	61273	Lessors of Other Real Estate Property 
+81430	1	61346	Landscaping Services
+81427	3	61413	Full-Service Restaurants 
+81130	2	61641	Theater Companies and Dinner Theaters 
+81122	10	62066	Site Preparation Contractors
+80651	7	62120	Support Activities for Oil and Gas Operations 
+81432	6	62232	Pet Care (except Veterinary) Services 
+81240	2	62500	Solid Waste Landfill 
+81303	30	62515	Electrical Contractors and Other Wiring Installation Contractors
+80017	7	62531	Car Washes 
+80517	29	62540	Full-Service Restaurants 
+80645	14	62794	Oil and Gas Field Machinery and Equipment Manufacturing 
+81630	1	62847	All Other Traveler Accommodation 
+80218	56	62923	Offices of Physicians (except Mental Health Specialists) 
+81323	3	63056	All Other Traveler Accommodation 
+80526	33	63078	Nursing Care Facilities (Skilled Nursing Facilities) 
+80105	1	63125	Plumbing, Heating, and Air-Conditioning Contractors 
+80235	22	63505	Engineering Services
+81225	1	63616	Residential Property Managers 
+81527	1	63734	Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing 
+81652	8	63750	Support Activities for Oil and Gas Operations 
+81649	1	63750	All Other Amusement and Recreation Industries 
+80113	52	63826	Offices of Physicians (except Mental Health Specialists) 
+81650	20	63857	Plumbing, Heating, and Air-Conditioning Contractors 
+80817	14	64103	(blank)
+80022	157	64251	Poured Concrete Foundation and Structure Contractors 
+80224	44	64254	Home Health Care Services
+80918	101	64840	Offices of Dentists 
+81639	3	65170	All Other Miscellaneous Manufacturing 
+80621	35	65567	Support Activities for Oil and Gas Operations 
+80232	17	65596	Full-Service Restaurants 
+80514	11	65673	New Car Dealers 
+80443	20	65806	Full-Service Restaurants 
+80911	10	65824	Full-Service Restaurants 
+80003	48	65957	Religious Organizations 
+80906	64	65973	Full-Service Restaurants 
+80482	10	66442	Full-Service Restaurants 
+80205	195	66775	Full-Service Restaurants 
+81635	5	66783	Site Preparation Contractors
+80440	1	66813	All Other Miscellaneous Store Retailers (except Tobacco Stores) 
+81435	36	66815	Full-Service Restaurants 
+80733	1	66875	Dairy Cattle and Milk Production
+80840	2	67083	Promoters of Performing Arts, Sports, and Similar Events with Facilities 
+80227	31	67111	Plumbing, Heating, and Air-Conditioning Contractors 
+80537	99	67452	Engineering Services
+81007	16	67737	Water and Sewer Line and Related Structures Construction 
+81023	1	67824	Ground or Treated Mineral and Earth Manufacturing 
+80829	4	67850	Religious Organizations 
+80538	115	68031	Full-Service Restaurants 
+80535	5	68333	Landscaping Services
+80444	2	68333	Skiing Facilities
+80120	124	68954	Engineering Services
+81069	1	69536	Highway, Street, and Bridge Construction 
+81224	18	69714	Full-Service Restaurants 
+80421	2	69746	Fire Protection 
+80634	81	70290	New Car Dealers 
+80215	63	70483	Engineering Services
+81301	106	70516	Full-Service Restaurants 
+80525	178	70527	Full-Service Restaurants 
+81524	3	70688	Environmental Consulting Services
+80234	67	70727	New Car Dealers 
+80237	132	70770	Offices of Lawyers
+80520	1	70844	Site Preparation Contractors
+80536	4	71172	Recreational and Vacation Camps (except Campgrounds) 
+80648	2	71607	Oil and Gas Pipeline and Related Structures Construction 
+80644	7	71974	Cattle Feedlots 
+80446	9	72031	Residential Property Managers 
+81648	6	72083	General Medical and Surgical Hospitals 
+80624	4	72148	Dairy Cattle and Milk Production
+80601	53	72541	Offices of Physicians (except Mental Health Specialists) 
+80103	1	72632	Commercial and Institutional Building Construction 
+80498	24	72743	New Car Dealers 
+80814	1	72924	Poured Concrete Foundation and Structure Contractors 
+80206	120	73076	Full-Service Restaurants 
+81643	1	73409	Skiing Facilities
+80466	5	73504	Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)
+80863	8	73705	(blank)
+80233	45	73882	Hotels (except Casino Hotels) and Motels 
+80249	18	74117	Hotels (except Casino Hotels) and Motels 
+80642	7	74688	All Other Support Activities for Transportation 
+80478	2	74727	Site Preparation Contractors
+80102	5	75343	Other Building Material Dealers 
+80212	47	75713	Full-Service Restaurants 
+80004	41	75794	Full-Service Restaurants 
+80422	5	75849	Casinos (except Casino Hotels)
+80925	1	75969	(blank)
+81611	104	76027	Full-Service Restaurants 
+81657	61	76466	Full-Service Restaurants 
+81601	68	76732	New Car Dealers 
+80021	107	77155	Custom Computer Programming Services 
+80207	60	77282	Other Miscellaneous Durable Goods Merchant Wholesalers 
+80530	7	77500	All Other Professional, Scientific, and Technical Services
+81620	57	77540	Full-Service Restaurants 
+80615	17	77567	Dairy Cattle and Milk Production
+80031	45	77826	Hotels (except Casino Hotels) and Motels 
+80428	1	77969	Hotels (except Casino Hotels) and Motels 
+80211	133	78192	Full-Service Restaurants 
+80123	38	78272	New Car Dealers 
+81621	39	78281	Plumbing, Heating, and Air-Conditioning Contractors 
+80220	40	78773	Offices of Physicians (except Mental Health Specialists) 
+80487	91	78907	Full-Service Restaurants 
+80228	104	79203	Full-Service Restaurants 
+80013	15	79219	Full-Service Restaurants 
+80463	1	79318	Nursery and Tree Production 
+81507	10	79550	Offices of Physical, Occupational and Speech Therapists, and Audiologists 
+80026	95	79595	Full-Service Restaurants 
+80543	7	80011	Dairy Cattle and Milk Production
+81632	40	81851	Full-Service Restaurants 
+80640	59	82056	Specialized Freight (except Used Goods) Trucking, Long-Distance 
+81637	17	82222	Plumbing, Heating, and Air-Conditioning Contractors 
+80136	4	82331	Water Supply and Irrigation Systems 
+80301	334	82522	Full-Service Restaurants 
+80019	2	82808	(blank)
+80922	17	83034	Offices of Dentists 
+80603	23	85234	All Other Specialty Trade Contractors
+80513	30	85399	Plumbing, Heating, and Air-Conditioning Contractors 
+80202	443	85697	Offices of Lawyers
+80951	1	85703	Nail Salons 
+80401	180	85833	Engineering Services
+80210	101	86970	Religious Organizations 
+81623	57	86978	Engineering Services
+80643	13	87078	Other Building Material Dealers 
+80549	15	87246	Full-Service Restaurants 
+80209	87	87333	Offices of Lawyers
+80827	1	87375	Environment, Conservation and Wildlife Organizations 
+80241	30	87418	Plumbing, Heating, and Air-Conditioning Contractors 
+80020	101	87786	Home Health Care Services
+81647	4	88017	Wine and Distilled Alcoholic Beverage Merchant Wholesalers 
+80923	27	88121	Offices of Physicians (except Mental Health Specialists) 
+80435	23	88194	Full-Service Restaurants 
+80424	47	88243	Full-Service Restaurants 
+80128	25	88511	Engineering Services
+81645	4	88542	Plumbing, Heating, and Air-Conditioning Contractors 
+80447	2	89212	Plumbing, Heating, and Air-Conditioning Contractors 
+80230	26	89594	Offices of Physicians (except Mental Health Specialists) 
+80304	59	89846	Offices of Physicians (except Mental Health Specialists) 
+80117	3	90313	Farm and Garden Machinery and Equipment Merchant Wholesalers 
+81523	1	90336	Lessors of Residential Buildings and Dwellings 
+80305	23	90610	Advertising Agencies
+80831	17	90992	Elementary and Secondary Schools 
+80504	101	91095	Commercial and Institutional Building Construction 
+80112	507	91687	Engineering Services
+80503	45	92176	Nursing Care Facilities (Skilled Nursing Facilities) 
+80534	30	92284	Poured Concrete Foundation and Structure Contractors 
+80919	70	92635	Hotels (except Casino Hotels) and Motels 
+80137	3	92772	All Other Miscellaneous Manufacturing 
+80920	90	92983	Offices of Physicians (except Mental Health Specialists) 
+80550	85	94227	Full-Service Restaurants 
+80542	10	94863	Poured Concrete Foundation and Structure Contractors 
+80121	23	95484	New Car Dealers 
+80135	17	95801	Poured Concrete Foundation and Structure Contractors 
+80540	8	96818	(blank)
+80107	9	97214	Electrical Contractors and Other Wiring Installation Contractors
+80104	46	97336	Full-Service Restaurants 
+80015	19	100229	Child Day Care Services 
+80122	57	101070	Offices of Dentists 
+80465	15	101094	Full-Service Restaurants 
+80528	38	101104	Offices of Physicians (except Mental Health Specialists) 
+80005	21	101313	Full-Service Restaurants 
+80470	3	101667	Hardware Stores 
+80433	12	103173	Custom Computer Programming Services 
+80018	6	103968	Other Commercial Equipment Merchant Wholesalers 
+80106	1	105595	Electrical Contractors and Other Wiring Installation Contractors
+80454	2	105972	Landscaping Services
+80116	10	106042	Supermarkets and Other Grocery (except Convenience) Stores 
+80547	11	106250	Full-Service Restaurants 
+80111	338	106766	Offices of Lawyers
+80124	63	107244	Offices of Physicians (except Mental Health Specialists) 
+80439	31	107262	Full-Service Restaurants 
+80127	103	108190	Engineering Services
+80908	25	108463	Full-Service Restaurants 
+80027	133	109718	Full-Service Restaurants 
+81631	36	109946	Framing Contractors 
+80403	63	110417	Engineering Services
+80129	66	111636	New Car Dealers 
+80134	107	112370	Religious Organizations 
+80602	17	113405	Residential Property Managers 
+80516	51	116632	Plumbing, Heating, and Air-Conditioning Contractors 
+80016	54	117068	Full-Service Restaurants 
+80130	4	121165	Site Preparation Contractors
+80023	31	121907	Offices of Physicians (except Mental Health Specialists) 
+80921	45	122294	Religious Organizations 
+80126	42	122851	Religious Organizations 
+80138	49	122983	Offices of Physicians (except Mental Health Specialists) 
+80109	46	123798	Full-Service Restaurants 
+80132	34	126270	Engineering Services
+80125	62	127588	Landscaping Services
+80118	10	128548	Religious Organizations 
+80924	6	133983	Offices of Physicians (except Mental Health Specialists) 
+80108	41	136937	Child Day Care Services 
+80238	38	138580	Full-Service Restaurants 
+80007	18	140610	Landscaping Services
+81658	14	#N/A	Commercial and Institutional Building Construction 
+81602	12	#N/A	Poured Concrete Foundation and Structure Contractors 
+81302	7	#N/A	All Other Outpatient Care Centers 
+80502	5	#N/A	New Multifamily Housing Construction (except For-Sale Builders) 
+80632	5	#N/A	Landscaping Services
+80633	5	#N/A	Continuing Care Retirement Communities 
+81402	5	#N/A	Grantmaking Foundations 
+81502	5	#N/A	Limited-Service Restaurants 
+80265	4	#N/A	(blank)
+80038	3	#N/A	Plumbing, Heating, and Air-Conditioning Contractors 
+80308	3	#N/A	Asphalt Paving Mixture and Block Manufacturing 
+80962	3	#N/A	All Other Miscellaneous Chemical Product and Preparation Manufacturing 
+80155	2	#N/A	New Single-Family Housing Construction (except For-Sale Builders) 
+80161	2	#N/A	Religious Organizations 
+80163	2	#N/A	Other Management Consulting Services 
+80201	2	#N/A	Museums 
+80522	2	#N/A	Food Service Contractors
+80539	2	#N/A	Residential Property Managers 
+80646	2	#N/A	Postharvest Crop Activities (except Cotton Ginning) 
+80866	2	#N/A	Investigation Services 
+81002	2	#N/A	Limited-Service Restaurants 
+80001	1	#N/A	All Other Business Support Services 
+80034	1	#N/A	Assisted Living Facilities for the Elderly 
+80037	1	#N/A	Industrial Building Construction 
+80044	1	#N/A	Other Individual and Family Services 
+80046	1	#N/A	Advertising Agencies
+80047	1	#N/A	Highway, Street, and Bridge Construction 
+80151	1	#N/A	Civic and Social Organizations 
+80208	1	#N/A	Grantmaking Foundations 
+80217	1	#N/A	Process, Physical Distribution, and Logistics Consulting Services 
+80225	1	#N/A	Investment Advice 
+80254	1	#N/A	Janitorial Services 
+80266	1	#N/A	Special Needs Transportation 
+80306	1	#N/A	Human Resources Consulting Services 
+80307	1	#N/A	Custom Computer Programming Services 
+80437	1	#N/A	Child Day Care Services 
+80527	1	#N/A	Promoters of Performing Arts, Sports, and Similar Events without Facilities 
+80533	1	#N/A	All Other Business Support Services 
+80541	1	#N/A	Poured Concrete Foundation and Structure Contractors 
+80614	1	#N/A	Electrical Contractors and Other Wiring Installation Contractors
+80901	1	#N/A	Museums 
+80934	1	#N/A	Plumbing, Heating, and Air-Conditioning Contractors 
+80936	1	#N/A	All Other Specialty Trade Contractors
+81215	1	#N/A	Amusement and Theme Parks 
+81626	1	#N/A	Crushed and Broken Limestone Mining and Quarrying 
