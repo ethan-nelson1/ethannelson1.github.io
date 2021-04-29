@@ -43,7 +43,7 @@
 		zoomOffset: -1
 	}).addTo(map);
 
-var geojson = new L.GeoJSON.AJAX("tree_canopy_CBD.geojson");
+var geojson = new L.GeoJSON.AJAX("tree_canopy_downtown.geojson");
 geojson.on('data:loaded', function(){
 geojson.addTo(map);
 });
