@@ -3,7 +3,7 @@
 <html>
 <head>
 	
-	<title>GeoJSON tutorial - Leaflet</title>
+	<title>Denver Tree Canopy</title>
 
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -43,13 +43,27 @@
 		zoomOffset: -1
 	}).addTo(map);
 
-var geojson = new L.GeoJSON.AJAX("tree_canopy_downtown.json");
-geojson.on('data:loaded', function(){
+
+	function onEachFeature(feature, layer) {
+		var popupContent = "<p><b>Neighborhood</b>: " + feature.properties.NEIGHBORHO + "</p>" +  
+		"<b>Type of tree</b>: " + feature.properties.TREE_TYPE
+		layer.bindPopup(popupContent);
+	}
+
+	map.setMaxBounds(map.getBounds());
+
+var treeStyle = {
+        "color": "#0c5b2d",
+        "opacity": 0.65
+    };
+
+var geojson = new L.GeoJSON.AJAX("tree_canopy_downtown.json", {
+	onEachFeature: onEachFeature,
+	style: treeStyle
+});
+geojson.on('data:loaded', function(){	
 geojson.addTo(map);
 });
-
-	//L.geoJSON(tree).addTo(map);
-
 
 </script>
 
