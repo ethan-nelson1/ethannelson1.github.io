@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            table {
+                border-collapse: collapse;
+                font: 20px sans-serif;
+                margin: auto;
+                display: block;
+                min-height: 540px;
+            }
+
+            td {
+                border-radius: 12px;
+                stroke: none;
+
+            }
+            th {
+                font-size: .75em;
+                min-width: 18px;
+            }
+            .woman {
+                background: #8856a7;
+                height: 20px;
+                width: 20px;
+
+            }
+            .man {
+                background: #7fbf7b;
+                height: 20px;
+                width: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+
+        <script type="text/javascript"charset="utf-8">
+            d3.text("mtn_directors_year.csv", function(data) {
+                var parsedCSV = d3.csv.parseRows(data);
+
+                var container = d3.select("body")
+                    .append("table")               
+
+                    .selectAll("tr")
+                        .data(parsedCSV).enter()
+                        .append("tr")
+
+                    .selectAll("td")
+                        .data(function(d) { return d; }).enter()
+                        .append("td")
+                        .attr("class", function(d, i) {
+                            if (d === "Michele Romanow" || d === "Hilary A. Schneider" || d === "Susan L. Decker" || d === "Nadia Rawlinson") {
+                                var newClass = "";
+                                    if (i > 0 && i <= 20) {
+                                        newClass = " colHide";
+                                    }
+                                    return "woman";
+                                }
+                            else {
+                                return "man";
+                            }})
+                        .text(function(d) { 
+                            if (d === "Indiana" || d === "Maryland" || d === "Michigan" || d === "Mich State" || d === "Ohio State" || d === "Penn State" || d === "Rutgers" || d === "Illinois" || d === "Iowa" || d === "Minnesota" || d === "Nebraska" || d === "Northwestern" || d === "Purdue" || d === "Wisconsin") {
+                            return d;
+                        }
+                        else {
+                            return "";
+                        }
+                    })
+            .on("mousemove", function(d) {
+                function schoolName(d) {
+                    return d;
+                }
+
+                function opac(d) {
+                    if (d3.select(this).className === "white") {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                }
+                d3.select(this).style("opacity", 1)
+                d3.select(this).style("stroke", "black")
+                tooltip.transition()
+                    .duration(100)
+                    .style("opacity", 1)
+                tooltip.html(schoolName(d))
+                    .style("left", (d3.event.pageX) + "px")
+                    .style("top", (d3.event.pageY - 30) + "px");
+            })
+            .on("mouseout", function(d, i) {
+                d3.select(this).style("opacity", .8)
+                d3.select(this).style("stroke", "none")
+                tooltip.transition()
+                    .delay(50)
+                    .duration(100)
+                    .style("opacity", 0)
+            });                        ;
+
+                var header = d3.select("table").append("thead");
+                        header
+                            .selectAll("th")
+                            .data(["\'09", "\'10", "\'11", "\'12", "\'13", "\'14", "\'15", "\'16", "\'17", "\'18", "\'19", "\'20", "\'21"])
+                            .enter()
+                            .append("th")
+                            .text(function(d) {
+                                return d;
+            })  
+
+        var tooltip = d3.select("table").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+                    });
+                                    
+        </script>
+    </body>
+</html>
+
