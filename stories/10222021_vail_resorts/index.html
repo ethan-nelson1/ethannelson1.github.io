@@ -6,11 +6,14 @@
             table {
                 border-collapse: collapse;
                 font: 20px sans-serif;
-                margin: auto;
+/*                margin: auto;
                 display: block;
-                min-height: 540px;
+                min-height: 540px;*/
+                z-index: -10000;
             }
-
+            h1 {
+                font-size: x-large;
+            }
             td {
                 border-radius: 12px;
                 stroke: none;
@@ -23,24 +26,44 @@
             .woman {
                 background: #8856a7;
                 height: 20px;
-                width: 20px;
-
+                width: 40px;
+                opacity: .8;
             }
             .man {
                 background: #7fbf7b;
                 height: 20px;
-                width: 20px;
+                width: 40px;
+                opacity: .8;
+            }
+            .na {
+                background: #ccc;
+                height: 20px;
+                width: 40px;
+            }
+            .tooltip {
+                position: absolute;
+                z-index: 100000;
+                background-color: white;
+                border: solid;
+                border-width: 1px;
+                border-radius: 5px;
+                padding: 5px;             
             }
         </style>
     </head>
     <body>
-        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <div id="container">
+            <div id="header-text">
+                <h1>Gender makeup of Vail Resorts board of directors</h1>
+                <p>Since </p>
+            </div>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
 
         <script type="text/javascript"charset="utf-8">
             d3.text("mtn_directors_year.csv", function(data) {
                 var parsedCSV = d3.csv.parseRows(data);
 
-                var container = d3.select("body")
+                var container = d3.select("#container")
                     .append("table")               
 
                     .selectAll("tr")
@@ -58,12 +81,15 @@
                                     }
                                     return "woman";
                                 }
+                            else if (d === "NA") {
+                                return "na";
+                            }
                             else {
                                 return "man";
                             }})
                         .text(function(d) { 
-                            if (d === "Indiana" || d === "Maryland" || d === "Michigan" || d === "Mich State" || d === "Ohio State" || d === "Penn State" || d === "Rutgers" || d === "Illinois" || d === "Iowa" || d === "Minnesota" || d === "Nebraska" || d === "Northwestern" || d === "Purdue" || d === "Wisconsin") {
-                            return d;
+                            if (d === "") {
+                            return "";
                         }
                         else {
                             return "";
@@ -75,7 +101,7 @@
                 }
 
                 function opac(d) {
-                    if (d3.select(this).className === "white") {
+                    if (d3.select(this).className === "man") {
                         return 1;
                     } else {
                         return 0;
@@ -84,18 +110,18 @@
                 d3.select(this).style("opacity", 1)
                 d3.select(this).style("stroke", "black")
                 tooltip.transition()
-                    .duration(100)
+                    .duration(50)
                     .style("opacity", 1)
                 tooltip.html(schoolName(d))
                     .style("left", (d3.event.pageX) + "px")
-                    .style("top", (d3.event.pageY - 30) + "px");
+                    .style("top", (d3.event.pageY - 43) + "px");
             })
             .on("mouseout", function(d, i) {
                 d3.select(this).style("opacity", .8)
                 d3.select(this).style("stroke", "none")
                 tooltip.transition()
-                    .delay(50)
-                    .duration(100)
+                    .delay(25)
+                    .duration(50)
                     .style("opacity", 0)
             });                        ;
 
@@ -109,13 +135,14 @@
                                 return d;
             })  
 
-        var tooltip = d3.select("table").append("div")
+        var tooltip = d3.select("body").append("div")
             .attr("class", "tooltip")
             .style("opacity", 0);
 
                     });
                                     
         </script>
+        </div>
     </body>
 </html>
 
