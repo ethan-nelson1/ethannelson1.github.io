@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <style>
+            #container {
+                width: 30%;
+            }
             table {
                 border-collapse: collapse;
                 font: 20px sans-serif;
@@ -49,14 +52,52 @@
                 border-radius: 5px;
                 padding: 5px;             
             }
+            .coachKeys {
+              float:left;
+              margin: 0px 0 10px 0;
+              padding-top: 6px;
+              display: inline-block;
+              font-family: "Benton Sans", sans-serif;
+              vertical-align:middle;
+              font-size: .9em;
+             }
+           .keyBlock { 
+                float:left;
+                width:100%;
+                margin: 0 auto .9em auto;
+        }             
+           .square {
+              float:left;
+              width: 1.2em;
+              height: 1.2em;
+              margin-right:.6em;
+
+              border-radius:.6em;
+            }
+
+            #square-man {
+              background: #7fbf7b;
+            }
+
+            #square-woman {
+              background: #8856a7;
+              margin-left:.2em;  
+            }            
         </style>
     </head>
     <body>
+
         <div id="container">
             <div id="header-text">
                 <h1>Gender makeup of Vail Resorts board of directors</h1>
-                <p>Since </p>
+                <p>Since 2013, at least one director on Vail Resorts' board has been a woman, and its current board outdoes most other public companies in the state in terms of board gender diversity.</p>
             </div>
+                    <div class="keyBlock">
+            <div class="coachKeys">
+            <div class="square" id="square-woman"></div><div style="margin-right:.0em">Female board member</div></div>
+            <div class="coachKeys">
+            <div class="square" id="square-man"></div>Male board member</div>
+        </div>
         <script src="http://d3js.org/d3.v3.min.js"></script>
 
         <script type="text/javascript"charset="utf-8">
@@ -145,4 +186,3 @@
         </div>
     </body>
 </html>
-
