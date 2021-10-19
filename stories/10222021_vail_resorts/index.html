@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <style>
             #container {
-                width: 100%;
+                width: 30%;
             }
             table {
                 border-collapse: collapse;
@@ -90,7 +90,7 @@
         <div id="container">
             <div id="header-text">
                 <h1>Gender makeup of Vail Resorts board of directors</h1>
-                <p>Since 2013, at least one director on Vail Resorts' board has been a woman, and its current board outdoes most other public companies in the state in terms of board gender diversity.</p>
+                <p>Since 2013, at least one director on Vail Resorts' board has been a woman, and its current board outdoes most other public companies in the state in terms of board gender diversity. Only five other publicly traded companies headquartered in Colorado have a higher percentage of women on their boards of directors, according to data from the Women's Leadership Council as of June 30, 2021.</p>
             </div>
                     <div class="keyBlock">
             <div class="coachKeys">
@@ -98,7 +98,7 @@
             <div class="coachKeys">
             <div class="square" id="square-man"></div>Male board member</div>
         </div>
-        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
 
         <script type="text/javascript"charset="utf-8">
             d3.text("mtn_directors_year.csv", function(data) {
@@ -154,8 +154,8 @@
                     .duration(50)
                     .style("opacity", 1)
                 tooltip.html(schoolName(d))
-                    .style("left", (d3.event.pageX) + "px")
-                    .style("top", (d3.event.pageY - 43) + "px");
+                    .style("left", (d3.event.pageX -60) + "px")
+                    .style("top", (d3.event.pageY - 55) + "px");
             })
             .on("mouseout", function(d, i) {
                 d3.select(this).style("opacity", .8)
@@ -169,7 +169,7 @@
                 var header = d3.select("table").append("thead");
                         header
                             .selectAll("th")
-                            .data(["\'09", "\'10", "\'11", "\'12", "\'13", "\'14", "\'15", "\'16", "\'17", "\'18", "\'19", "\'20", "\'21"])
+                            .data(["2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"])
                             .enter()
                             .append("th")
                             .text(function(d) {
@@ -186,3 +186,4 @@
         </div>
     </body>
 </html>
+
