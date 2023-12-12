@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Twin Cities home prices</title>
+
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 149px; bottom: 0; width: 40%; height: 60%}
+	h2 { clear: both; width: 40%; font-family: Arial, Helvetica, sans-serif;}
+	p { clear: both; width: 40%; font-family: Arial, Helvetica, sans-serif;}
+</style>
+
+</head>
+
+<body>
+
+<h2>Vacancy rates of downtown Minneapolis office buildings. </h2>
+<p>Office buildings' vacancy rates depend largely on where the building is located in downtown.</p>
+<div id="map" height="400px"></div>
+
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZW5lbHNvbmRiaiIsImEiOiJja2F5anY1OW0wNnN1MzBzZGRoajR1a3UzIn0.bFgqFbvZ2It3mAzefjAnZA';
+    const map = new mapboxgl.Map({
+        container: 'map', // container ID
+        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+        style: 'mapbox://styles/mapbox/light-v11', // style URL
+        center: [-93.26912014386257, 44.97521074054782], // starting position [lng, lat]
+        zoom: 14// starting zoom
+    });
+
+    	let hoveredPolygonId = null;
+
+		map.on('load', function() {
+		  var url = 'office_vacancies.json';
+		  map.addSource('offices', { type: 'geojson', data: url});
+		
+
+		map.addLayer({
+			'id': 'offices',
+			'type': 'fill',
+			'source': 'offices', // reference the data source
+			'layout': {},
+			'paint': {
+			'fill-color': {
+				property: 'percentChange',
+				stops: [[-15, '#4867d9'], [12, '#f00']]
+			},
+			'fill-opacity': [
+				'case',
+					['boolean', ['feature-state', 'hover'], false],
+					1,
+					0.5
+			]
+		}
+		});
+
+		map.addLayer({
+			'id': 'outline',
+			'type': 'line',
+			'source': 'offices',
+			'layout': {},
+			'paint': {
+			'line-color': '#000',
+			'line-width': .5
+			}
+		});
+
+		var popup = new mapboxgl.Popup({
+			closeButton: false,
+			closeOnClick: false,
+			offset: 15
+		});
+
+		map.on('mouseenter', 'offices', (e) => {
+			map.getCanvas().style.cursor = 'pointer';
+			popup
+			.setLngLat(e.lngLat)
+			.setHTML(e.features[0].properties.name + '<br><b>2024 market value</b>: ' + e.features[0].properties.marketValue2024 + '<br><hr>That\'s a <b>' + e.features[0].properties.percentChange + '</b>% percent difference from 2019.')
+			.addTo(map);
+			//console.log(e.lngLat)
+
+		});
+
+		map.on('mouseleave', 'offices', () => {
+			map.getCanvas().style.cursor = '';
+			popup.remove();
+
+			if (hoveredPolygonId !== null) {
+				map.setFeatureState(
+					{ source: 'offices', id: hoveredPolygonId },
+					{ hover: false }
+				);
+			}
+			hoveredPolygonId = null;
+		});
+
+		map.on('mousemove', 'offices', (e) => {
+			if (e.features.length > 0) {
+				if (hoveredPolygonId !== null) {
+					map.setFeatureState(
+						{ source: 'offices', id: hoveredPolygonId },
+						{ hover: false }
+				);
+			}
+			hoveredPolygonId = e.features[0].id;
+				map.setFeatureState(
+					{ source: 'offices', id: hoveredPolygonId },
+					{ hover: true }
+				);
+				}
+			});
+
+});
+
+</script>
+
+</body>
+</html>
